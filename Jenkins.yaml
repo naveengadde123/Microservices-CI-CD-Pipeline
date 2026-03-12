@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/microservice-cicd.git'
+                git 'https://github.com/naveengadde123/Microservices-CI-CD-Pipeline.git'
             }
         }
 
